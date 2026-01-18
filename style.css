@@ -1,0 +1,98 @@
+* {
+      box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+       
+}
+
+.containerSum {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;    
+}
+
+.style{
+    width: 20%;
+    height: 3em;
+    border-radius: 15px;
+    border: none;
+    margin: 10px;
+    font-size: 20px;
+}
+
+input {
+    background-color: #e7e4e4;
+    padding: 0 10px ;
+}
+
+button {
+    background-color:rgb(0 188 212);
+    color: white;
+    
+}
+
+p {
+    font-family: Helvetica;
+    font-size: 20px;
+    color:rgb(103, 9, 226);
+    margin: 5px;
+}
+
+.containerCircle {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 60%;    
+}
+
+.containerList {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    align-items: center;
+    margin-top: 15px;
+}
+
+#inputItem {
+    border-radius: 0;
+    height: 3em;
+    width: 70%;
+    font-family: Helvetica;
+    font-size: 20px;
+
+}
+
+#buttonCreateItem {
+    border-radius: 0;
+    height: 3em;
+    width: 30%;
+    font-family: Helvetica;
+    font-size: 20px;
+    background-color: rgb(8, 184, 75);
+
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.styleList{
+    margin: 0 auto;
+    border-radius: 0;
+    height: 2em;
+    font-family: Helvetica;
+    font-size: 20px;
+    color:rgb(12, 12, 12);
+    width: 540px;
+}
