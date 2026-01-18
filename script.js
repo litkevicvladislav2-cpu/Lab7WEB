@@ -1,4 +1,4 @@
-const sumBtn = document.getElementById("sumBtn");
+const containerSum = document.getElementById("containerSum");
 
 sumBtn.addEventListener("click", () => {
     const a = Number(document.getElementById("a").value);
